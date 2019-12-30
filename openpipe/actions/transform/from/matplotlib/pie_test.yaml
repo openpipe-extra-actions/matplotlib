@@ -1,0 +1,8 @@
+start:
+    - insert:
+        Frogs: 15
+        Hogs: 30
+        Dogs: 45
+        Logs: 10
+    - transform from matplotlib pie:
+        path: tmp/pie.png
